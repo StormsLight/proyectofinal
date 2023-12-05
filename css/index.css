@@ -1,0 +1,65 @@
+.imagen{
+    display: flex;
+    border-radius: 100px;
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    margin-left: 400px;
+}
+
+.parrafo{
+    margin-left: 400px;
+    margin-right: 425px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.logoH{
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.cabecera {
+    background-color: rgb(182, 221, 184);
+    
+}
+
+.cabecera li {
+margin-top: 34px;
+margin-right: 150px;
+background-color: aliceblue;
+margin-bottom: 5px;
+list-style: none;
+padding: 10px;
+border-radius: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+.add{
+    width: 500px;
+    height: 400px;
+    margin-left: 700px;
+}
+
+.app{
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.pap{
+    margin-left: 600px;
+    margin-top: 80px;
+}
