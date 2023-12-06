@@ -34,6 +34,10 @@
     
 }
 
+.foot{
+    background-color: rgb(182, 221, 184);
+}
+
 .cabecera li {
 margin-top: 34px;
 margin-right: 150px;
@@ -62,4 +66,5 @@ ul{
 .pap{
     margin-left: 600px;
     margin-top: 80px;
+    
 }
