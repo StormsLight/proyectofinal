@@ -17,6 +17,7 @@ let listaProductos = [];
 //Obtenemos los datos del Producto con la funcion 
 //Arrow Function
 //obtenemos los datos del Proyecto
+
 const dameDatos = () => {
     nombreProducto = document.getElementById('nombreProducto').value;
     stockProducto = document.getElementById('stockProducto').value;
@@ -27,7 +28,7 @@ const dameDatos = () => {
 
 
 //creamos una funcion para cargar los Productos en un array
-const altaProducto = () => {
+const altaProductos = () => {
     
     //invocamos a la funcion que obtiene los datos
     dameDatos();
@@ -53,8 +54,8 @@ const altaProducto = () => {
     
     console.log('=================================================');
     
-    console.log(listaProductos);
     
+    console.log(listaProductos);
     console.log(`El producto dado de alta es ${nombreProducto} y su precio es ${precioProducto} y su stock es de ${stockProducto} cantidades y su imagen esta en ${imagenProducto} `);
     
     console.log('=================================================');
@@ -64,7 +65,7 @@ const altaProducto = () => {
 
 }
 
-function eliminarProducto(){
+function eliminarProducto() {
     listaProductos.pop();
     console.log(listaProductos);
 }
